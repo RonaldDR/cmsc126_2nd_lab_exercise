@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+}
+h1, h2{
+    font-family: arial, helvetica, sans-serif;
+}
+
+.sheader{
+}
+.whole{
+    width: 80%;
+    margin: auto;    
+}
+
+.img-circle {
+    border-radius: 50%;
+    width:100%; 
+    height: auto;
+    background-color: #3a3a3a;
+    border: 1px solid #000000;
+}
+.left{
+    float: left;
+    width: 20%;
+}
+
+.right{
+    margin-left: 5%;
+    float: left;
+    overflow: hidden;
+    width: 75%;
+    height: 100%;
+}
+
+ul.profile{
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+li.pdetail{
+    font-size: 14px;
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-family: arial, helvetica, sans-serif;
+}
+
+ul.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav{
+    float: left;
+    padding-left: 50px;
+}
+
+li.nav a {
+    font-family: arial, helvetica, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a:hover {
+    background-color: #111;
+}
+
+.icontainer{
+    margin-left: 10%;
+    display: inline-block;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
